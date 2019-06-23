@@ -24,5 +24,5 @@ Please run command from project directory:
 - Unix
 `./gradlew test`
 
--Windows
+- Windows
 `gradlew.bat test`
