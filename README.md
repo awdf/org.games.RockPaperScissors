@@ -10,9 +10,19 @@ Please use what you think is appropriate for the task.
 If you have any questions don't hesitate to contact us.
 
 ## Run application
+Please run console command from project directory:
 
-./gradlew run
+- Unix
+`./gradlew run`
+
+- Windows 
+`gradlew.bat run`
 
 ## Run tests
+Please run command from project directory:
 
-./gradlew test
+- Unix
+`./gradlew test`
+
+-Windows
+`gradlew.bat test`

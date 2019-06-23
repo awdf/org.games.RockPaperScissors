@@ -32,4 +32,9 @@ enum Round {
         int any = (int) Math.round(Round.values().length * Math.random());
         return Round.values()[any == 3 ? 0 : any]; //The
     }
+
+    @Override
+    public String toString() {
+        return this.name();
+    }
 }
