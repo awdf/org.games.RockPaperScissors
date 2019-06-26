@@ -20,6 +20,14 @@ application {
     mainClassName = 'org.games.RockPaperScissors'
 }
 
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'org.games.RockPaperScissors'
+        )
+    }
+}
+
 test {
 
     testLogging {
